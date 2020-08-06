@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Gwyn Bong Xiao Min.
+  ~ All rights reserved.
+  ~ Last Modified 4/6/20 8:25 PM
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/ic_exercise_plan"
+        android:title="EXERCISE PLAN" />
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/ic_dashboard"
+        android:title="DASHBOARD" />
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/ic_progress"
+        android:title="PROGRESS" />
+
+</menu>

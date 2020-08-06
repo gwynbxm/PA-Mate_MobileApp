@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Gwyn Bong Xiao Min.
+  ~ All rights reserved.
+  ~ Last Modified 4/6/20 8:25 PM
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nyp.edu.sg.pamateapp">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".helper.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/pamate"
+        android:label="PA-Mate"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/login" />
+        <activity
+            android:name=".CreateAccActivity"
+            android:label="@string/create_acc" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:label="@string/account" />
+        <activity
+            android:name=".PairDeviceActivity"
+            android:label="@string/pair_device" />
+        <activity
+            android:name=".bottom_navi.HomeActivity"
+            android:label="@string/home" />
+        <activity
+            android:name=".ExercisePlanDetailsActivity"
+            android:label="@string/plan_details" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/AppTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings" />
+        <activity
+            android:name=".NotificationHistoryActivity"
+            android:label="@string/notifications" />
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/help" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/about" />
+
+        <activity
+            android:name=".ExerciseIntructionsActivity"
+            android:label="@string/exercise_instructions" />
+        <activity android:name=".bottom_navi.DashboardViewPagerActivity" />
+    </application>
+
+</manifest>

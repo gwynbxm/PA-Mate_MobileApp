@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Gwyn Bong Xiao Min.
+  ~ All rights reserved.
+  ~ Last Modified 4/6/20 8:25 PM
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="reminder_category"
+        android:title="@string/pref_header_notifcation_reminder">
+
+        <SwitchPreference
+            android:key="on_off_reminder_switch"
+            android:summary="On or Off Reminder"
+            android:title="@string/pref_title_reminder" />
+        <SwitchPreference
+            android:dependency="on_off_reminder_switch"
+            android:key="on_off_vibration_switch"
+            android:summary="On or Off Vibration"
+            android:title="@string/pref_title_vibrate" />
+        <nyp.edu.sg.pamateapp.helper.TimePreference
+            android:dependency="on_off_reminder_switch"
+            android:key="set_reminder_time"
+            android:summary="Set reminder"
+            android:title="Set Reminder" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="sync_category"
+        android:title="@string/pref_header_sync">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="perform_sync"
+            android:summary="Enable or disable data sync"
+            android:title="@string/pref_title_enable_sync" />
+
+        <ListPreference
+            android:defaultValue="1000"
+            android:dependency="perform_sync"
+            android:entries="@array/pref_sync_frequency_titles"
+            android:entryValues="@array/pref_sync_frequency_values"
+            android:key="sync_interval_list"
+            android:summary="Define how often sync will be performed"
+            android:title="@string/pref_title_sync_interval" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="information_category"
+        android:title="@string/pref_header_information">
+
+        <Preference
+            android:key="information_help"
+            android:title="@string/pref_help" />
+        <Preference
+            android:key="information_about"
+            android:title="@string/pref_about_pamate" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

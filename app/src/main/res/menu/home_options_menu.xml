@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Gwyn Bong Xiao Min.
+  ~ All rights reserved.
+  ~ Last Modified 4/6/20 8:25 PM
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nyp.edu.sg.pamateapp.bottom_navi.HomeActivity">
+
+    <item
+        android:id="@+id/sync"
+        android:icon="@drawable/ic_sync"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/account"
+        android:title="Account" />
+
+    <item
+        android:id="@+id/notifications"
+        android:title="Notifications" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+</menu>

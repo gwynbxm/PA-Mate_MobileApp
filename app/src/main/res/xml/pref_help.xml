@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Gwyn Bong Xiao Min.
+  ~ All rights reserved.
+  ~ Last Modified 4/6/20 8:25 PM
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="exercise_know_how"
+        android:title="Exercise">
+
+        <Preference
+            android:key="how_to_do_exercise"
+            android:title="@string/exercise_how" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

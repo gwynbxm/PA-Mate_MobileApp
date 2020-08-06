@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Gwyn Bong Xiao Min.
+  ~ All rights reserved.
+  ~ Last Modified 4/6/20 8:25 PM
+  -->
+
+<resources>
+    <color name="colorPrimary">#35B7FF</color>
+    <color name="colorPrimaryDark">#028CD8</color>
+    <color name="colorAccent">#025FD8</color>
+</resources>

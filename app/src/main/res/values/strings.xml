@@ -1,0 +1,210 @@
+<!--
+  ~ Copyright (c) 2020 Gwyn Bong Xiao Min.
+  ~ All rights reserved.
+  ~ Last Modified 4/6/20 8:25 PM
+  -->
+
+<resources>
+    <!-- Titles of each activity-->
+    <string name="app_name">PAMateApp</string>
+
+    <!--LOGIN-->
+    <string name="login">Login</string>
+    <string name="login_username_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+
+    <!--CREATE ACCOUNT-->
+    <string name="create_acc">Create Account</string>
+    <string name="name">Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="height">Height (eg. 165)</string>
+    <string name="weight">Weight (eg. 55)</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="username">Username</string>
+    <string name="email_address">Email Address (eg. shelyn@mail.com)</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">REGISTER</string>
+
+    <!--SETTINGS-->
+    <string name="settings">Settings</string>
+
+    <!--EXERCISE PLAN-->
+    <string name="exercise_plan">Exercise Plan</string>
+    <string name="exercise_plan_name"> </string>
+    <string name="exercise_plan_date"> </string>
+    <string name="plan_details_date" />
+    <string name="plan_details_name" />
+    <string name="plan_details_duration" />
+    <string name="plan_details_bpm" />
+    <string name="plan_details_bpm_unit">bpm</string>
+    <string name="plan_details_calories" />
+    <string name="plan_details_calories_unit">kcal</string>
+    <string name="plan_details_steps" />
+    <string name="plan_details_distance" />
+    <string name="plan_details_distance_unit">km</string>
+
+    <string name="account">Account</string>
+    <string name="change_image">CHANGE IMAGE</string>
+    <string name="edit_name_title">Name</string>
+    <string name="edit_name">Name here</string>
+    <string name="edit_gender_title">Gender</string>
+    <string name="edit_male">Male</string>
+    <string name="edit_female">Female</string>
+    <string name="edit_date_of_birth_title">Date of Birth</string>
+    <string name="edit_birthday">Birthday here</string>
+    <string name="edit_height_title">Height</string>
+    <string name="edit_height">Height here</string>
+    <string name="edit_weight_title">Weight</string>
+    <string name="edit_weight">Weight here</string>
+    <string name="edit_username_title">Username</string>
+    <string name="edit_username">Username here</string>
+    <string name="edit_email_title">Email Address</string>
+    <string name="edit_email">Email address here</string>
+    <string name="edit_password_title">Password</string>
+    <string name="edit_password">Password here</string>
+    <string name="edit_confirm_password_title">Confirm Password</string>
+    <string name="edit_confirm_password">Confirm Password here</string>
+    <string name="save_profile">SAVE PROFILE</string>
+
+    <string name="pair_device">Pair a Device</string>
+
+    <string name="home">PAMate</string>
+    <string name="recent_progress_title">RECENT</string>
+    <string name="recent_duration" />
+    <string name="recent_heart_rate" />
+    <string name="recent_heart_rate_unit">bpm</string>
+    <string name="recent_calorie" />
+    <string name="recent_calories_unit">kcal</string>
+    <string name="recent_steps" />
+    <string name="recent_distance" />
+    <string name="recent_distance_unit">km</string>
+
+    <!--DASHBOARD-->
+    <string name="today_date" />
+    <string name="db_heart_rate_value" />
+    <string name="heart_rate_unit">bpm</string>
+    <string name="view_heart_statistics">View Statistics</string>
+    <string name="steps_unit">steps</string>
+    <string name="db_steps_value" />
+    <string name="view_steps_statistics">View Statistics</string>
+    <string name="db_calories_value" />
+    <string name="calories_unit">calories</string>
+    <string name="view_calories_statistics">View Statistics</string>
+    <string name="db_distance_value" />
+    <string name="distance_unit">km</string>
+    <string name="view_distance_statistics">View Statistics</string>
+
+    <string name="plan_details">Plan Details</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <!-- Error messages -->
+    <string name="error_message_name">Enter name</string>
+    <string name="error_message_dob">Select date of birth</string>
+    <string name="error_message_height">Enter height</string>
+    <string name="error_message_weight">Enter weight</string>
+    <string name="error_message_email">Enter email</string>
+    <string name="error_message_username">Enter Username</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="error_message_confirm_password">Enter confirm password</string>
+    <string name="error_message_compare_password">Unidentical password. Please enter again.</string>
+    <string name="error_message_username_password">Wrong username or password</string>
+    <string name="error_message_email_exist">Email exists. Please enter again.</string>
+    <string name="error_message_username_email_exist">Username or Email address already exists. Please enter again.</string>
+
+    <!-- Messages -->
+    <string name="message_success_signup">Successfully registered.</string>
+    <string name="message_failed_signup">Registration failed.</string>
+
+    <string name="message_success_save_profile">Profile updated.</string>
+    <string name="message_failed_save_profile">Profile update fail.</string>
+
+    <string name="message_success_added_exercise_plan">Added Exercise Plan</string>
+
+    <!-- Links -->
+    <string name="create_account_link">No account yet? <b><u>Create account.</u></b></string>
+    <string name="login_link">Already a member? <b><u>Login</u></b></string>
+
+
+    <!-- Strings related to Settings -->
+    <!-- Notification Reminder settings -->
+    <string name="pref_header_notifcation_reminder">Notification Reminder</string>
+    <string name="pref_title_reminder">Reminder</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- Sync settings -->
+    <string name="pref_header_sync">Sync Information</string>
+
+    <string name="pref_title_enable_sync">Enable Auto Sync</string>
+    <string name="pref_title_sync_interval">Sync Interval</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>3 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <!-- Information settings -->
+    <string name="pref_header_information">Information</string>
+    <string name="pref_help">Help</string>
+    <string name="help">Help</string>
+
+    <string name="pref_about_pamate">About PAMate</string>
+    <string name="about">About</string>
+    <string name="about_description">PA-Mate stands for Physical Activity Mate. PA-Mate provides features to send a reminder to the wear to inform the user to do a specific exercise according to the plan created by the specific doctor. It will record and analyze performances recorded to help maintain a healthy lifestyle.</string>
+
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="notifications">Notifications</string>
+    <string name="loginBtn">LOGIN</string>
+    <string name="create_an_account">CREATE AN ACCOUNT</string>
+    <string name="exercise_instructions">Exercise Videos</string>
+    <string name="exercise_how">How to do exercise</string>
+    <string name="about_title">PA-MATE</string>
+    <string name="recent_exercise" />
+    <string name="recent_exercise_duration" />
+    <string name="recent_exercise_date" />
+    <string name="sync_message" />
+    <string name="success_create_acc" />
+    <string name="date_format">dd-MM-yyyy</string>
+    <string name="video_title" />
+    <string name="video_instructions" />
+    <string name="notification_title" />
+    <string name="notification_message" />
+
+
+</resources>
