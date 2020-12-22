@@ -16,7 +16,7 @@
 
 <!-- Project Introduction -->
 ### General Information
-This project was done in the period from November 2017 to February 2018 as a FYPJ in Nanyang Polytechnic.
+This project was implemented in the period from November 2017 to February 2018 as a FYPJ in Nanyang Polytechnic.
 
 ### Project Introduction
 PA-Mate stands for Physical Activity Mate. It targets elderly aged 65 and above with chronic pain to urge them to do physical activity. PA-Mate consists of 3 components: </br>
@@ -29,8 +29,13 @@ PA-Mate stands for Physical Activity Mate. It targets elderly aged 65 and above 
 * Azure
 
 ### MobileApp Features
-* 
-*
-*
-*
+* User Account Management
+* Dashboard displaying exercise performance of the day
+* Exercise plan and its targeted exercise performance
+* Exercise progress of the exercises completed and its recorded performance
+* Settings: </br>
+  * Set reminder
+  * Sync to update exercise performance
+  * Watch recommended exercise videos
+
 ### Screenshots
