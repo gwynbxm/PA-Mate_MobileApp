@@ -30,10 +30,15 @@ PA-Mate stands for Physical Activity Mate. It targets elderly aged 65 and above 
 
 ### MobileApp Features
 * User Account Management
-* Dashboard displaying exercise performance of the day
-* Exercise plan and its targeted exercise performance
-* Exercise progress of the exercises completed and its recorded performance
-* Settings: </br>
+* Dashboard 
+  * Displays daily exercise performance recorded by Wearable application
+* Exercise plan set by the user's doctor
+  * The type of physical activity 
+  * Its targeted exercise performance
+* Exercise progress 
+  * The physical activity completed
+  * Its recorded exercise performance
+* Settings:
   * Set reminder
   * Sync to update exercise performance
   * Watch recommended exercise videos
