@@ -9,7 +9,7 @@
   <li><a href="#project-introduction">Project Introduction</a></li>
   <li><a href="#technologies">Technologies</a></li>
   <li><a href="#features">Features</a></li>
-  <li><a href="#screenshots">Screenshots</a></li>
+  <li><a href="https://github.com/gwynbxm/PA-Mate_MobileApp/tree/master/designs">Designs</a></li>
 </ol>
 </details>
 
@@ -42,5 +42,3 @@ PA-Mate stands for Physical Activity Mate. It targets elderly aged 65 and above 
   * Set reminder
   * Sync to update exercise performance
   * Watch recommended exercise videos
-
-### Screenshots
